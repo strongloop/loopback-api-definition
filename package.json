@@ -7,7 +7,11 @@
     "pretest": "jscs . && jshint .",
     "test": "mocha"
   },
-  "author": "",
+  "author": {
+    "name": "Candy Ng",
+    "email": "ngcandy@ca.ibm.com",
+    "url": "http://strongloop.com/"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
