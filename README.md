@@ -7,3 +7,5 @@ Supports YAML and JSON.
 This is an internal module used by the following user-facing tools:
 
 - slc loopback:export-api-def [--json]
+
+Issues in this module are tracked in the main LoopBack issue tracker: https://github.com/strongloop/loopback/issues
