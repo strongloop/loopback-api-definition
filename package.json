@@ -1,6 +1,6 @@
 {
   "name": "loopback-api-definition",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate loopback api definitions",
   "main": "lib/get-api-def.js",
   "scripts": {
