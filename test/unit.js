@@ -1,4 +1,3 @@
-var path = require('path');
 var expect = require('chai').expect;
 var apiDef = require('../lib/get-api-def');
 
@@ -13,6 +12,7 @@ describe('Test function getApiDef', function() {
   it('Yaml format', function() {
     var value = apiDef.getApiDef(sampleAppJs, {format: 'yaml'});
     expect(value).to.contain('swagger: \'2.0\'');
+    expect(value).to.not.contain('!<tag:yaml.org,2002:js/undefined> \'\'');
   });
 
   it('JSON format', function() {
