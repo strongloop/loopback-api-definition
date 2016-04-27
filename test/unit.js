@@ -19,5 +19,4 @@ describe('Test function getApiDef', function() {
     var value = apiDef.getApiDef(sampleAppJs, { format: 'JSON' });
     expect(value).to.contain('"swagger":"2.0"');
   });
-
 });

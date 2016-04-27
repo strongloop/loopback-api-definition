@@ -4,8 +4,9 @@
   "description": "Generate loopback api definitions",
   "main": "lib/get-api-def.js",
   "scripts": {
-    "test": "mocha",
-    "posttest": "eslint ."
+  "lint": "eslint .",
+  "test": "mocha",
+  "posttest": "npm run lint"
   },
   "author": {
     "name": "Candy Ng",
