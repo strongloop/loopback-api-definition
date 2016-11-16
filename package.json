@@ -13,6 +13,9 @@
     "email": "ngcandy@ca.ibm.com",
     "url": "http://strongloop.com/"
   },
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-api-definition/issues"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
