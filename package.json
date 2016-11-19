@@ -2,6 +2,9 @@
   "name": "loopback-api-definition",
   "version": "3.0.0-alpha.1",
   "description": "Generate loopback api definitions",
+  "engines": {
+    "node": ">=4"
+  },
   "main": "lib/get-api-def.js",
   "scripts": {
     "lint": "eslint .",
