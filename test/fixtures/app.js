@@ -3,6 +3,8 @@
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
+'use strict';
+
 var loopback = require('loopback');
 var app = loopback();
 
@@ -10,8 +12,7 @@ var app = loopback();
 app.set('port', 0);
 
 // Setup default datasources for autoAttach()
-app.dataSource('db', { connector: 'memory' });
-app.use(loopback.User, { dataSource: 'db' });
+app.dataSource('db', {connector: 'memory'});
 
 // Configure REST API path
 app.set('restApiRoot', '/rest-api-root');
