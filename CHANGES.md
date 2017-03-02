@@ -1,3 +1,13 @@
+2017-03-02, Version 3.1.0
+=========================
+
+ * Upgrade dependencies (Raymond Feng)
+
+ * Replicate new issue_template from loopback (Siddhi Pai)
+
+ * Replicate issue_template from loopback repo (Siddhi Pai)
+
+
 2016-12-21, Version 3.0.0
 =========================
 
