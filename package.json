@@ -11,11 +11,7 @@
     "test": "mocha",
     "posttest": "npm run lint"
   },
-  "author": {
-    "name": "Candy Ng",
-    "email": "ngcandy@ca.ibm.com",
-    "url": "http://strongloop.com/"
-  },
+  "author": "IBM Corp.",
   "bugs": {
     "url": "https://github.com/strongloop/loopback-api-definition/issues"
   },
