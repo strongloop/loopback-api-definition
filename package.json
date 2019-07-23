@@ -8,6 +8,7 @@
   "main": "lib/get-api-def.js",
   "scripts": {
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "mocha",
     "posttest": "npm run lint"
   },
@@ -26,9 +27,9 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^3.16.1",
-    "eslint-config-loopback": "^8.0.0",
+    "eslint": "^4.2.0",
+    "eslint-config-loopback": "^13.1.0",
     "loopback": "^3.4.0",
-    "mocha": "^3.2.0"
+    "mocha": "^5.2.0"
   }
 }
