@@ -5,8 +5,8 @@
 
 'use strict';
 
-var loopback = require('loopback');
-var app = loopback();
+const loopback = require('loopback');
+const app = loopback();
 
 // Listen on an ephemeral port
 app.set('port', 0);
