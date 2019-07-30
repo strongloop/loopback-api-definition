@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "js-yaml": "^3.8.1",
-    "loopback-swagger": "^4.0.0"
+    "loopback-swagger": "^5.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
