@@ -1,3 +1,25 @@
+2019-08-02, Version 3.2.0
+=========================
+
+ * update loopback-swagger dependency (Matteo Padovano)
+
+ * drop support for node.js 4 and 6 (Nora)
+
+ * fix eslint violations (Nora)
+
+ * update eslint and mocha deps (Nora)
+
+ * chore: update copyrights years (Agnes Lin)
+
+ * Update LICENSE (Diana Lau)
+
+ * add .travis.yml (Diana Lau)
+
+ * Update Issue and PR Templates (#18) (Sakib Hasan)
+
+ * Add CODEOWNER file (Diana Lau)
+
+
 2017-03-02, Version 3.1.0
 =========================
 

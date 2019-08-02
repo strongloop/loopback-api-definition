@@ -1,6 +1,6 @@
 {
   "name": "loopback-api-definition",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Generate loopback api definitions",
   "engines": {
     "node": ">=8"
